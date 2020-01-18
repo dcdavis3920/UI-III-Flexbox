@@ -1,362 +1,345 @@
-            /* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-            
-            html,
-            body,
-            div,
-            span,
-            applet,
-            object,
-            iframe,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-            p,
-            blockquote,
-            pre,
-            a,
-            abbr,
-            acronym,
-            address,
-            big,
-            cite,
-            code,
-            del,
-            dfn,
-            em,
-            img,
-            ins,
-            kbd,
-            q,
-            s,
-            samp,
-            small,
-            strike,
-            strong,
-            sub,
-            sup,
-            tt,
-            var,
-            b,
-            u,
-            i,
-            center,
-            dl,
-            dt,
-            dd,
-            ol,
-            ul,
-            li,
-            fieldset,
-            form,
-            label,
-            legend,
-            table,
-            caption,
-            tbody,
-            tfoot,
-            thead,
-            tr,
-            th,
-            td,
-            article,
-            aside,
-            canvas,
-            details,
-            embed,
-            figure,
-            figcaption,
-            footer,
-            header,
-            hgroup,
-            menu,
-            nav,
-            output,
-            ruby,
-            section,
-            summary,
-            time,
-            mark,
-            audio,
-            video {
-                margin: 0;
-                padding: 0;
-                border: 0;
-                font-size: 100%;
-                font: inherit;
-                vertical-align: baseline;
-            }
-            /* HTML5 display-role reset for older browsers */
-            
-            article,
-            aside,
-            details,
-            figcaption,
-            figure,
-            footer,
-            header,
-            hgroup,
-            menu,
-            nav,
-            section {
-                display: block;
-            }
-            
-            body {
-                line-height: 1;
-            }
-            
-            ol,
-            ul {
-                list-style: none;
-            }
-            
-            blockquote,
-            q {
-                quotes: none;
-            }
-            
-            blockquote:before,
-            blockquote:after,
-            q:before,
-            q:after {
-                content: '';
-                content: none;
-            }
-            
-            table {
-                border-collapse: collapse;
-                border-spacing: 0;
-            }
-            /* Set every element's box-sizing to border-box */
-            
-            * {
-                box-sizing: border-box;
-            }
-            
-            html,
-            body {
-                height: 100%;
-                font-family: 'Titillium Web', sans-serif;
-            }
-            
-            h1,
-            h2,
-            h3,
-            h4,
-            h5 {
-                font-family: 'Bangers', cursive;
-                letter-spacing: 1px;
-                margin-bottom: 15px;
-            }
-            /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-            
-            . {
-                justify-content: space-between;
-                display: flex;
-            }
-            
-            . {
-                display: flex;
-            }
-            
-            {
-                display: flex;
-                justify-content: space-around;
-                width: 70%;
-                margin: 10px 0 15px 0;
-            }
-            
-            . {
-                align-self: flex-end;
-                width: 25%;
-                margin: 0 0 15px 0;
-            }
-            
-            .intro {
-                display: flex;
-                justify-content: space-around;
-            }
-            
-            h1 {
-                font-size: 75px;
-            }
-            
-            .info {
-                display: flex;
-                justify-content: space-around;
-                margin: 40px 0;
-                min-width: 1000px;
-            }
-            
-            .div3 {
-                display: flex;
-                justify-content: center;
-                margin: 0 0 40px 0;
-            }
-            
-            .middle-img {
-                min-width: 1000px;
-            }
-            
-            .footer {
-                display: flex;
-            }
-            
-            .info3 {
-                display: column;
-            }
-            
-            nav {
-                display: column;
-            }
-            
-            a {
-                flex-direction: column;
-            }
-            
-            .copyright {
-                display: flex;
-                justify-content: center;
-            }
-            
-            .copy {
-                display: flex;
-            }
-            
-            .copy a {
-                display: flex;
-                flex-direction: center;
-            }
-            
-            .main2 {
-                justify-content: space-between;
-                display: flex;
-            }
-            
-            .main {
-                display: flex;
-                margin: 0 0 60px 0;
-            }
-            
-            nav {
-                display: flex;
-                justify-content: space-around;
-                width: 75%;
-                margin: 10px 0 15px 0;
-            }
-            
-            .d1 {
-                align-self: flex-end;
-                width: 25%;
-                margin: 0 0 15px 0;
-            }
-            
-            .features .about {
-                display: flex;
-            }
-            
-            .p1 {
-                width: 40%;
-                justify-content: center;
-            }
-            
-            .info2 {
-                display: flex;
-                justify-content: space-around;
-                margin: 0 0 100px 0;
-                justify-content: space around;
-            }
-            
-            .p3 {
-                width: 90%;
-            }
-            
-            p {
-                margin: 3px 6 3px 6px
-            }
-            
-            .start {
-                display: flex;
-            }
-            
-            .services-header-img {
-                justify-content: space-evenly;
-                margin: 50px 0 50px 25px;
-            }
-            
-            .next {
-                margin: 50px 25px 50px 25px;
-                display: column;
-                justify-content: center;
-            }
-            
-            .ending {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                justify-content: space-around;
-                margin: 65px 0 65px 0;
-            }
-            
-            .features1 {
-                width: 46%;
-                border: 1px solid black;
-                padding: 20px;
-            }
-            
-            .sales {
-                width: 46%;
-                border: 1px solid black;
-                padding: 20px;
-            }
-            
-            .ios {
-                width: 46%;
-                border: 1px solid black;
-                padding: 20px;
-            }
-            
-            .img {
-                width: 46%;
-                border: 1px solid black;
-                padding: 20px
-            }
-            
-            .stack {
-                width: 46%;
-                border: 1px solid black;
-                padding: 20px;
-            }
-            
-            .cell {
-                width: 46%;
-                border: 1px solid black;
-                padding: 20px;
-            }
-            
-            .our {
-                margin: 25px;
-            }
-            
-            ol {
-                margin: 0 25px 0 25px 0;
-            }
-            
-            .finished {
-                display: flex;
-                justify-content: space-evenly;
-            }
-            
-            .last {
-                width: 50%;
-            }
-            
-            services-info-img. {
-                width: 50%;
-            }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.logo {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.d1 {
+    width: 30%;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    border: 20px solid red;
+}
+
+.services-header-img {
+    margin: 30px auto;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.middle-img {
+    min-width: 1000px;
+}
+
+.footer {
+    display: flex;
+}
+
+.info3 {
+    display: column;
+}
+
+a {
+    flex-direction: column;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copy {
+    display: flex;
+}
+
+
+}
+.main2 {
+    justify-content: space-between;
+    display: flex;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 60px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 10px 0 15px 0;
+}
+p {
+    margin: 3px 6 3px 6px;
+}
+.next {
+    margin: 50px 25px 50px 25px;
+    display: column;
+    justify-content: center;
+}
+.ending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 65px 0 65px 0;
+}
+.features1 {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.sales {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.ios {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.img {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.stack {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.cell {
+    width: 46%;
+    border: 1px solid black;
+    padding: 20px;
+}
+.our {
+    margin: 25px;
+}
+ol {
+    margin: 0 25px 0 25px 0;
+}
+.finished {
+    display: flex;
+    justify-content: space-evenly;
+}
+.last {
+    width: 50%;
+}
+.services-info-img {
+    width: 50%;
+}
+.introserv1 {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 10px 0 15px 0;
+}
+.logo {
+    width: 70%;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 100px auto;
+    justify-content: space-between;
+    border: 2px solid blue;
+    width: 66%;
+}
+.about {
+    width: 100%;
+}
+.div3 {
+    display: flex;
+    justify-content: center;
+}
+.p1p {
+    width: 480px;
+    border: 2px solid red;
+}
+.info2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 100px auto;
+    justify-content: space around;
+    border: 2px solid blue;
+    width: 66%;
+}
+.p3 {
+    width: 315px;
+    border: 2px solid red;
+}
+.copy a {
+    display: flex;
+    flex-direction: center;
+    margin: 35px auto 28px auto;
+}
+p {
+    margin: 5px 0 5px 10px;
+}
